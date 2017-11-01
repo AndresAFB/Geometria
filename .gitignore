@@ -1,3 +1,6 @@
+# Ignorando .gitignore
+.gitignore
+
 # Ignorando los .class
 *.class
 
