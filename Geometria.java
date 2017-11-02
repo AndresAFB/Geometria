@@ -1,14 +1,14 @@
 public class Geometria {
 	
-	public static int areaCuadrado (int lado){
+	public static double areaCuadrado (double lado){
 	return lado*lado;
 	}
 	
-	public static int areaTriangulo (int base, int altura){
-	return base * altura;
+	public static double areaTriangulo (double base, double altura){
+	return base * altura / 2;
 	}
 	
-	public static int areaRectangulo (int lado1, int lado2){
+	public static double areaRectangulo (double lado1, double lado2){
 	return lado1 * lado2;
 	}
 	
